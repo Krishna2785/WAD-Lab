@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Mobile App</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <div data-role="page" id="page">
+
+        <div data-role="header" id="head">
+            <h1>Register</h1>
+        </div>
+        <div data-role="content">
+            <form action="submit">
+                <label>Name</label>
+                <input type="text" placeholder="Enter Name here">
+                <label>Email</label>
+                <input type="text" placeholder="Enter Email here">
+                <label>Password</label>
+                <input type="text" placeholder="Enter Password here">
+                <input type="button" value="Register">
+            </form>
+        </div>
+        <div data-role="footer">
+            <h3>Already Registered?</h3><br>
+            <a href="#login">login here</a>
+        </div>
+
+    </div>
+
+    <div data-role="login" id="login">
+
+        <div data-role="header" id="head">
+            <h1>Register</h1>
+        </div>
+        <div data-role="content">
+            <form action="submit">
+                <label>Email</label>
+                <input type="text" placeholder="Enter Email here">
+                <label>Password</label>
+                <input type="text" placeholder="Enter Password here">
+                <input type="button" value="Login">
+            </form>
+        </div>
+        <div data-role="footer">
+            <h3>New User?</h3><br>
+            <a href="#page">Register here</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
