@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-color:#f4f4f4;
+}
+
+
+
+/* Sidebar */
+
+.sidebar{
+    background-color:#343a40;
+    height:100vh;
+}
+
+
+
+.sidebar .nav-link{
+    padding:15px;
+    font-size:18px;
+}
+
+
+
+.sidebar .nav-link:hover{
+    background-color:#495057;
+    border-radius:5px;
+}
+
+
+
+/* Main Content */
+
+.main-content{
+    padding:20px;
+}
+
+
+
+/* Cards */
+
+.card{
+    color:white;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    transition:0.3s;
+}
+
+
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+
+
+/* Different Card Colors */
+
+.card1{
+    background-color:#007bff;
+}
+
+.card2{
+    background-color:#28a745;
+}
+
+.card3{
+    background-color:#ffc107;
+}
+
+.card4{
+    background-color:#dc3545;
+}
